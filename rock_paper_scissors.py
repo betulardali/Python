@@ -72,7 +72,6 @@ while True:
     
     son=input("Choose one: '0' for exit, enter for continue.\n")
     if son=="0":
-       # print(result.format(counter_pc,counter_user))
         result="\nFinal Result: Computer: {} User: {}\n"
         print(result.format(counter_pc,counter_user))
         print("Thanks for playing!")
