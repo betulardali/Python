@@ -1,7 +1,7 @@
 #Finding area or perimeter of the shapes in the list given below by user choice.
 
 shapes=["circle","triangle","square","rectangle"]
-#triangle in the list is a 	equilateral triangle
+#triangle in the list is a "equilateral" triangle
 print(shapes)
 shape_user=input("Choose the shape you want from the list (data as santimeter): ")
 
@@ -53,7 +53,7 @@ while True:
 
     elif shape_user=="rectangle" or shape_user=="rectangle":
         long=int(input("Enter the long side of the rectangle: "))
-        short=int(input("Enter the short dife of the rectangle: "))
+        short=int(input("Enter the short side of the rectangle: "))
 
         opt=input("Choose one: area(1) perimeter(2) ")
 
