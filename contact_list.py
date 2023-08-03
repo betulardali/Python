@@ -4,7 +4,7 @@ def new_contact():
     number=int(input("Phone Number (0XXXXXXXXXX): "))
 
     with open("contact_list.txt","a",encoding="utf-8") as list:
-        print(("New contact has been created!").center(10,"*"))
+        print("New contact has been created!")
         list.write(f"\nPerson: {name} {surname}, Number: {number}\n")
 
 
