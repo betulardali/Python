@@ -34,7 +34,7 @@ def mark():
                     modified.append(line)
 
 
-    with open("to_Do_list.txt", "w", encoding="utf-8") as list:
+    with open("to_do_list.txt", "w", encoding="utf-8") as list:
             list.writelines(modified)
     print(f"Task '{number}' marked as done!")        
 
